@@ -1,0 +1,19 @@
+{
+    "coverletter": [
+    {
+        "id": 1,
+        "title": "coverletter",
+        "name": "David Zhang",
+        "email": "davidzhang3210@gmail.com",
+        "phoneNumber": "203-917-9849",
+        "contents": ["Dear Hiring Manager,",
+        "I am writing to express my enthusiastic interest in joining your team as a Software Engineer Intern. Currently enrolled at New York University, I am on track to graduate in December 2024 with a GPA of 3.6, and I am eager to apply my skills and passion for technology to contribute to your team.",
+        "Throughout my academic journey and beyond, I have been deeply engaged in web development and Unity projects. These experiences have allowed me to work with various programming languages, including Java, Javascript, C++, Python, C#, HTML, CSS, and React. In my recent project, I successfully developed a Chat App Website with advanced features, such as encryption, login functionality, and support for saved channels and emotes. My specialty lies in my ability to swiftly pick up and learn new tools and technologies, which enables me to adapt to evolving industry demands.",
+        "As a collaborative individual, I thrived in my role as a Software Engineer at Rogue Aerospace, where I contributed to integrating a payload tracking system that required seamless coordination between the Software Engineering and Electrical Engineering teams. Additionally, I served as the technical lead for our university-wide competition team, which achieved an impressive second place. These experiences have honed my teamwork and problem-solving skills, making me a valuable asset in fast-paced and dynamic environments.",
+        "To complement my technical expertise, I have obtained certifications as an AWS Certified Database-Specialty and AWS Certified Cloud Practitioner. These certifications showcase my dedication to continuous learning and staying up-to-date with industry trends, which aligns with your commitment to innovation.",
+        "I am excited about the opportunity to contribute my knowledge and project experiences to your team. My dedication, creativity, and strong work ethic make me confident in my ability to add value to your team. Thank you for considering my application. I eagerly anticipate the chance to discuss my qualifications further.",
+        "Sincerely,",
+        "David Zhang"]
+    }
+]
+}

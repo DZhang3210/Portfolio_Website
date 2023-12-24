@@ -1,0 +1,142 @@
+.projectList {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom:50px
+}
+
+.sectionTitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projectPreview {
+    margin-bottom: 20px;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.projectPreview.fadeIn {
+    opacity: 1;
+}
+
+/* ... Other styles ... */
+
+.projectTitle h2 {
+    margin: 0;
+    font-size: 18px; /* Reduced font size */
+    font-weight: normal; /* For a more professional look */
+    font-style:bold;
+}
+
+.projectTitle h3 {
+    margin: 0;
+    font-size: 16px; /* Reduced font size */
+    text-align: right;
+}
+
+.projectDetails {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style: none; /* Remove default bullets */
+    font-size: 14px;
+    line-height: 1.6;
+    text-align:left;
+    border-bottom:none;
+}
+
+.projectDetails li {
+    position: relative;
+    margin-bottom: 5px;
+    padding-left: 10px; /* Space for custom bullet */
+}
+
+.projectDetails li::before {
+    content: ''; /* Necessary for a pseudo-element */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px; /* Width of the custom bullet */
+    height: 8px; /* Height of the custom bullet */
+    border-radius: 50%; /* Makes it circular */
+}
+
+
+.projectHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.projectDate h3 {
+    margin: 0;
+    font-size:16px;
+    text-align: right;
+}
+
+.sectionTitle{
+    text-align:left;
+}
+
+.sectionTitle{
+    text-align:left;
+}
+.projectPreview {
+    position: relative; /* Needed to position the overlay correctly */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent grey */
+    opacity: 0; /* Invisible initially */
+    transition: opacity 0.3s ease; /* Smooth transition for the overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.overlay-link {
+    display: block;
+    color: white;
+    margin: 10px 20px; /* Spacing between links */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius:10px;
+    border: 2px solid white;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.overlay-link:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.projectPreview:hover .overlay {
+    opacity: 1; /* Visible when hovered */
+}
+
+#light .disclaimer {
+    font-size: 12px; /* Smaller than the h1 text */
+    color: #6c757d; /* Example: a muted color for disclaimer */
+    font-weight: normal; /* Less emphasis than the title */
+    margin-left: 5px; /* Optional: space between title and disclaimer */
+    vertical-align: middle; /* Aligns with the middle of the h1 */
+}
+#dark .disclaimer{
+    font-size: 12px; /* Smaller than the h1 text */
+    color: #96a5b1; /* Example: a muted color for disclaimer */
+    font-weight: normal; /* Less emphasis than the title */
+    margin-left: 5px; /* Optional: space between title and disclaimer */
+    vertical-align: middle; /* Aligns with the middle of the h1 */
+}

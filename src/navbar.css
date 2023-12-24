@@ -1,0 +1,46 @@
+/* navbar.css */
+
+/* Base styling */
+.navbar {
+    font-family: 'Optima', sans-serif; /* Professional font */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homeSite {
+    text-align: center;
+    margin: 0px 0;
+    padding: 20px 0;
+}
+
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    align-items: stretch;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0; /* Remove gap between links */
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px 25px;
+    flex-grow: 1; /* Grow to fill the available horizontal space */
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: 2px solid transparent; /* Adds border */
+    position: relative; /* Needed for pseudo-element positioning */
+    overflow: hidden; /* Ensures pseudo-element doesn't overflow */
+}
+.navbar .setMode {
+    text-decoration: bold;
+    margin-left: 20px
+}

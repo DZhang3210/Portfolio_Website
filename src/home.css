@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* This will vertically center the contents if needed */
+    width: 100%; /* Adjust this value as needed */
+    width: 1400; /* Optional: to prevent the div from getting too wide on large screens */
+    margin: 0 auto; /* This centers the div on the page */
+    padding: 20px;
+    margin-bottom:30px;
+    max-width: 1200px;
+}
+
+
+.table_of_contents, .home_content {
+    margin: 0 10px; /* Add some space between the two elements */
+}
+
+/* Optional: Add styles for responsive design */
+@media (max-width: 768px) {
+    .contents {
+        flex-direction: column;
+    }
+}
+
+.contact_info {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    flex-direction: column; /* Display as a column to stack elements vertically */
+    align-items: flex-start;
+}
+.home_content{
+    padding-left: 10px;
+}
+
+/* Style for the name */
+.name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px; /* Add margin to separate from the description */
+}
+
+/* Style for the description */
+.description {
+    font-size: 16px;
+    margin-bottom: 5px; /* Add margin to separate from the contact */
+}
+
+/* Style for the contact */
+.contact {
+    font-size: 16px;
+    text-decoration: none;
+    padding-bottom: 10px; /* Add margin to separate from other links */
+}
+
+
+a.linkedin, a.github, a.cv, a.email{
+    font-size: 16px;
+    margin-right: 10px;
+    margin-right:10px;
+}
+
+.table_of_contents img{
+    max-width:500px;
+    height: 100%;
+}
+
+.aboutMe{
+    text-align:left;
+}
+
+
+.table_of_contents {
+    flex-basis: 20%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.table_of_contents img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.table_of_contents a {
+    display: block;
+    padding: 10px 0;
+    text-align:left;
+    font-size: 18px; /* Font size for links */
+    margin-bottom: 5px; /* Add margin to separate the links vertically */
+}
+
+.name {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.description, .contact {
+    margin-bottom: 20px;
+}
+
+.linkedin, .github, .cv, .email{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.aboutMe p {
+    text-align: justify;
+    font-size:18px;
+}
+
+.email, .linkedin, .github, .cv{
+    margin-right:10px;
+}
+
+
+

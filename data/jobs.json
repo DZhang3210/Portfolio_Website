@@ -1,0 +1,25 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "Title": "Tutor - Math, SAT, Statistics",
+            "Start-Date": "July 2021", 
+            "End-Date": "Present",
+            "Points": [
+                "Teach a variety of subjects clearly and conceptually",   
+                "Contributed teaching materials and worked collaboratively with other tutors",
+                "Adapt to accommodate a variety of different students and timezones"
+        ]
+        },
+        {
+            "id": 2,
+            "Title": "EE/CS Engineer - Rogue Aerospace",
+            "Start-Date": "Sep 2021", 
+            "End-Date": "January 2023",
+            "Points": [
+               " Worked within EE/CS division in tandem with seperate engineering subgroups",
+                "Engineered onboard electronics and programming of competition rocket",
+                "Build software to track payload and mitigate data noise"]
+        }
+    ]
+}

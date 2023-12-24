@@ -1,0 +1,80 @@
+.jobList {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-bottom:20px;
+    margin-bottom:50px
+}
+
+.sectionTitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.jobPreview {
+    margin-bottom: 20px;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.jobPreview.fadeIn {
+    opacity: 1;
+}
+
+
+.jobTitle h2 {
+    margin: 0;
+    font-size: 18px; /* Reduced font size */
+    font-weight: normal; /* For a more professional look */
+    font-style:bold;
+}
+
+.jobTitle h3 {
+    margin: 0;
+    font-size: 16px; /* Reduced font size */
+    text-align: right;
+}
+
+.jobDetails {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style: none; /* Remove default bullets */
+    font-size: 14px;
+    line-height: 1.6;
+    text-align:left;
+    border-bottom:none;
+}
+
+.jobDetails li {
+    position: relative;
+    margin-bottom: 5px;
+    padding-left: 10px; /* Space for custom bullet */
+}
+
+.jobDetails li::before {
+    content: ''; /* Necessary for a pseudo-element */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px; /* Width of the custom bullet */
+    height: 8px; /* Height of the custom bullet */
+    border-radius: 50%; /* Makes it circular */
+}
+
+
+.jobHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.jobDate h3 {
+    margin: 0;
+    font-size:16px;
+    text-align: right;
+}

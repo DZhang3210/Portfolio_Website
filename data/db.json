@@ -1,0 +1,107 @@
+{
+    "certificates": [
+        {
+            "id": 1,
+            "title": "AWS Certified Database-Specialty",
+            "startDate": "July 2023",
+            "endDate": "July 2026", 
+            "img": "Database-Specialty-Icon.png"
+
+        },
+        {
+            "id": 2,
+            "title": "AWS Certified Cloud Practitioner",
+            "startDate": "January 2023",
+            "endDate": "January 2026",
+            "img": "Cloud-Practitioner-Icon.png"
+        }
+
+    ],
+    "coverletter": [
+        {
+            "id": 1,
+            "title": "Cover Letter",
+            "name": "David Zhang",
+            "email": "davidzhang3210@gmail.com",
+            "phoneNumber": "203-917-9849",
+            "content": ["Dear Hiring Manager,",
+            "I am writing to express my enthusiastic interest in joining your team as a Software Engineer Intern. Currently enrolled at New York University, I am on track to graduate in December 2024 with a GPA of 3.6, and I am eager to apply my skills and passion for technology to contribute to your team.",
+            "Throughout my academic journey and beyond, I have been deeply engaged in web development and Unity projects. These experiences have allowed me to work with various programming languages, including Java, Javascript, C++, Python, C#, HTML, CSS, and React. In my recent project, I successfully developed a Chat App Website with advanced features, such as encryption, login functionality, and support for saved channels and emotes. My specialty lies in my ability to swiftly pick up and learn new tools and technologies, which enables me to adapt to evolving industry demands.",
+            "As a collaborative individual, I thrived in my role as a Software Engineer at Rogue Aerospace, where I contributed to integrating a payload tracking system that required seamless coordination between the Software Engineering and Electrical Engineering teams. Additionally, I served as the technical lead for our university-wide competition team, which achieved an impressive second place. These experiences have honed my teamwork and problem-solving skills, making me a valuable asset in fast-paced and dynamic environments.",
+            "To complement my technical expertise, I have obtained certifications as an AWS Certified Database-Specialty and AWS Certified Cloud Practitioner. These certifications showcase my dedication to continuous learning and staying up-to-date with industry trends, which aligns with your commitment to innovation.",
+            "I am excited about the opportunity to contribute my knowledge and project experiences to your team. My dedication, creativity, and strong work ethic make me confident in my ability to add value to your team. Thank you for considering my application. I eagerly anticipate the chance to discuss my qualifications further.",
+            "Sincerely,",
+            "David Zhang"]
+        }
+    ],
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Tutor - Math, SAT, Statistics",
+            "startDate": "July 2021", 
+            "endDate": "Present",
+            "content": [
+                "Teach a variety of subjects clearly and conceptually",   
+                "Contributed teaching materials and worked collaboratively with other tutors",
+                "Adapt to accommodate a variety of different students and timezones"
+        ]
+        },
+        {
+            "id": 2,
+            "title": "EE/CS Engineer - Rogue Aerospace",
+            "startDate": "Sep 2021", 
+            "endDate": "January 2023",
+            "content": [
+               " Worked within EE/CS division in tandem with seperate engineering subgroups",
+                "Engineered onboard electronics and programming of competition rocket",
+                "Build software to track payload and mitigate data noise"]
+        }
+    ],
+    "projects": [
+        {
+            "id" : 1,
+            "title": "Chat App Website",
+            "startDate": "Dec 2021",
+            "endDate": "December 2021",
+            "content": [
+                "Chatting Platform with encryption, login, chat, saved Channels, emote support",
+                "Utilized React, and Stream",
+                "Engineered seamless communication between multiple users and admin support"
+            ]
+        },
+        {
+            "id" : 2,
+            "title": "Payload Tracking - Rogue Aerospace",
+            "startDate": "Sep 2021",
+            "endDate": "January 2023",
+            "content": [
+               "Implemented 6 Dof Scanner with Kalman Filters to detect payload dropoff",
+               "Preparation to work on NASA competition operations with official team in future"
+            ]
+
+        },
+        {
+            "id" : 3,
+            "title": "Smart Mirror",
+            "startDate": "Sep 2021",
+            "endDate": "December 2021",
+            "content": [
+                "Second place in NYU RAD Competition",
+                "Designed a voice-activated hands-free smart mirror",
+                "Raspberry Pi, Hardware Integration, UI design, software features",
+                "Able to show news/weather/schedule, read off news and play Spotify"
+            ]
+        },
+        {
+            "id" : 4,
+            "title": "Top Down Shooter",
+            "startDate": "June 2015",
+            "endDate": "December 2018",
+            "content": [
+                "Top-down, bullet hell, shooter",
+                "Unique AI Enemies features: lasers, invisibility, fast-chasing, passive behavior",
+                "Unity, C#, Particle Effects, Sprites/Maps, Animation, Logic"
+            ]
+        }
+    ]
+}
