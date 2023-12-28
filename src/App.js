@@ -7,6 +7,9 @@ import CertificiateListDisplay from './Resume/CertificateListDisplay.js';
 import CoverLetterDisplay from './Resume/CoverLetterDisplay.js';
 import Home from './Home.js';
 import {createContext, useState} from 'react'
+import LogoBoard from './LogoBoard.js';
+import ScrollTransitionText from './ScrollTransitionText.js';
+import FeaturedProjects from './FeaturedProjects.js';
 export const ThemeContext = createContext(null);
 
 function App() {
@@ -22,10 +25,12 @@ function App() {
         <Navbar/>
         <Switch>
           <Route exact path = "/">
+            <ScrollTransitionText/>
             <Home/>
-            <JobListDisplay/>
-            <ProjectListDisplay/>
+            <LogoBoard/>
             <CertificiateListDisplay/>
+            <FeaturedProjects/>
+            <ProjectListDisplay/>
           </Route>
           {/* <Route path = "/JobList" component = {JobListDisplay}></Route>
           <Route path = "/ProjectList" component = {ProjectListDisplay}></Route>

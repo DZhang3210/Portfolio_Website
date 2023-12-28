@@ -1,5 +1,8 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useInView } from 'react-intersection-observer';
+import {faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLocationArrow } from '@fortawesome/free-solid-svg-icons';
 
 const ProjectList = ({ projects }) => {
     const [ref, inView] = useInView({
@@ -9,7 +12,7 @@ const ProjectList = ({ projects }) => {
 
     return (
         <div className="projectList">
-            <h1 className="sectionTitle">Projects <span className = "disclaimer">... hover for more</span></h1>
+            <h1 className="sectionTitle">More Projects</h1>
             {projects.map((project) => (
                 <div ref={ref} className={`projectPreview ${inView ? 'fadeIn' : ''}`} key={project.id}>
                     <div className="projectHeader">
@@ -26,8 +29,8 @@ const ProjectList = ({ projects }) => {
                         ))}
                     </ul>
                     <div className = "overlay">
-                        <a className = "overlay-link" href = {project.github}>Github</a>
-                        <a className = "overlay-link" href = {project.redirect}>Redirect</a>
+                        <a className = "overlay-link" href = {project.github}> <FontAwesomeIcon icon = {faGithub}/> Github</a>
+                        <a className = "overlay-link" href = {project.redirect}> <FontAwesomeIcon icon={faLocationArrow} /> Redirect</a>
                     </div>
                 </div>
             ))}

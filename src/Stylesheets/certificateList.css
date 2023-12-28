@@ -40,6 +40,11 @@
     margin-bottom: 10px;
 }
 
+.certPreview:hover{
+    transform: scale(1.01); /* Slightly enlarge on hover */
+    transition: transform 0.1s ease-in-out; /* Smooth transition */
+}
+
 /* Responsive Design: Single column on smaller screens */
 @media screen and (max-width: 600px) {
     .certificateList {
@@ -47,6 +52,3 @@
     }
 }
 
-.certificateList{
-    padding-bottom: 400px;
-}

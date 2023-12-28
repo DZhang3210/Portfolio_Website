@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+.LogoBoard {
+    text-align: center; /* Center align the content */
+    padding: 20px; /* Add some padding for aesthetics */
+}
+
+.LogoBoard .title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px; /* Appropriate size for visibility */
+    color: #333333; /* A dark color for readability and professionalism */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px; /* Slight letter-spacing for a polished look */
+    text-transform: uppercase; /* Uppercase for impact, optional */
+    line-height: 1.2; /* Line height for readability */
+    max-width: 80%; /* Limit width and use margin for center alignment */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    text-align:left;
+    border-bottom: 2px solid #007bff; /* Underline effect, optional */
+}
+
+.LogoBoard div {
+    display: flex; /* Use flexbox for the container of images */
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Align the images vertically */
+    flex-wrap: wrap; /* Wrap items to the next line if needed */
+    margin: 50px 0;
+}
+
+.LogoBoard img {
+    height: 125px; /* Set a fixed height for all images */
+    width: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Space between logos */
+}
+
+/* Optional: Add a hover effect for interactivity */
+.LogoBoard img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 28px; /* Smaller font size for smaller screens */
+    }
+}

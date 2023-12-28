@@ -1,6 +1,9 @@
 
 .App {
   text-align: center;
+  /* background-image: url('/public/texture.png');
+  background-repeat: repeat;
+  background-size: 100% auto;  */
 }
 
 .App-logo {

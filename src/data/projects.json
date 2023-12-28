@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id" : 1,
+            "title": "Chat App Website",
+            "StartDate": "Dec 2021",
+            "EndDate": "December 2021",
+            "content": [
+                "Chatting Platform with encryption, login, chat, saved Channels, emote support",
+                "Utilized React, and Stream",
+                "Engineered seamless communication between multiple users and admin support"
+            ]
+        },
+        {
+            "id" : 2,
+            "title": "Payload Tracking - Rogue Aerospace",
+            "StartDate": "Sep 2021",
+            "EndDate": "January 2023",
+            "content": [
+               "Implemented 6 Dof Scanner with Kalman Filters to detect payload dropoff",
+               "Preparation to work on NASA competition operations with official team in future"
+            ]
+
+        },
+        {
+            "id" : 3,
+            "title": "Smart Mirror",
+            "StartDate": "Sep 2021",
+            "EndDate": "December 2021",
+            "content": [
+                "Second place in NYU RAD Competition",
+                "Designed a voice-activated hands-free smart mirror",
+                "Raspberry Pi, Hardware Integration, UI design, software features",
+                "Able to show news/weather/schedule, read off news and play Spotify"
+            ]
+        },
+        {
+            "id" : 4,
+            "title": "Game Design",
+            "StartDate": "June 2015",
+            "EndDate": "December 2018",
+            "content": [
+                "Top-down, bullet hell, shooter",
+                "Unique AI Enemies features: lasers, invisibility, fast-chasing, passive behavior",
+                "Unity, C#, Particle Effects, Sprites/Maps, Animation, Logic"
+            ]
+        }
+    ]
+}

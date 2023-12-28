@@ -1,8 +1,10 @@
 import ProjectList from "./ProjectList";
 import useFetch from "../useFetch";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import useLocalData from "../useLocalData";
 const ProjectListDisplay = () => {
-    const {data: projs, isPending, error} = useFetch('http://localhost:8000/projects')
+    //const {data: projs, isPending, error} = useFetch('http://localhost:8000/projects')
+    const {data: projs, isPending, error} = useLocalData("projects");
     return ( 
         <div className = "ProjectListDisplay" id = "projects">
 

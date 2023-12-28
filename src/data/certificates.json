@@ -1,0 +1,18 @@
+{
+    "certificates": [
+        {
+            "id": 1,
+            "title": "AWS Certified Database-Specialty",
+            "startDate": "July 2023",
+            "endDate": "July 2026"
+
+        },
+        {
+            "id": 2,
+            "title": "AWS Certified Cloud Practitioner",
+            "startDate": "January 2023",
+            "endDate": "January 2026"
+        }
+
+    ]
+}

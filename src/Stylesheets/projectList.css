@@ -1,14 +1,18 @@
 .projectList {
-    max-width: 650px;
+    max-width: 850px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
-    margin-bottom:50px
+    margin-bottom: 50px;
+    display: grid; /* Add grid display */
+    grid-template-columns: repeat(2, 1fr); /* Two columns of equal width */
+    grid-gap: 20px; /* Space between grid items */
 }
 
 .sectionTitle {
     text-align: center;
     margin-bottom: 30px;
+    grid-column: 1 / -1; /* Title spans all columns */
 }
 
 .projectPreview {
@@ -16,41 +20,43 @@
     padding: 10px;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+    display: flex; /* Ensures internal content is flex */
+    flex-direction: column; /* Stacks elements vertically */
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .projectPreview.fadeIn {
     opacity: 1;
 }
 
-/* ... Other styles ... */
 
 .projectTitle h2 {
     margin: 0;
-    font-size: 18px; /* Reduced font size */
-    font-weight: normal; /* For a more professional look */
-    font-style:bold;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-.projectTitle h3 {
+
+.projectDate h3 {
     margin: 0;
-    font-size: 16px; /* Reduced font size */
+    font-size: 14px; /* Reduced font size */
     text-align: right;
 }
 
 .projectDetails {
     margin-top: 10px;
     padding-left: 20px;
-    list-style: none; /* Remove default bullets */
+    list-style: none;
     font-size: 14px;
     line-height: 1.6;
-    text-align:left;
-    border-bottom:none;
+    text-align: left;
 }
 
 .projectDetails li {
     position: relative;
     margin-bottom: 5px;
-    padding-left: 10px; /* Space for custom bullet */
+    padding-left: 10px;
 }
 
 .projectDetails li::before {
@@ -107,9 +113,9 @@
 .overlay-link {
     display: block;
     color: white;
-    margin: 10px 20px; /* Spacing between links */
+    margin: 10px 5px; /* Spacing between links */
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius:10px;
     border: 2px solid white;
     transition: background-color 0.3s, color 0.3s;
@@ -139,4 +145,10 @@
     font-weight: normal; /* Less emphasis than the title */
     margin-left: 5px; /* Optional: space between title and disclaimer */
     vertical-align: middle; /* Aligns with the middle of the h1 */
+}
+
+@media (max-width: 768px) {
+    .projectList {
+        grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    }
 }

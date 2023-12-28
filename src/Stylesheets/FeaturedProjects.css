@@ -1,0 +1,17 @@
+.projectTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px; /* Appropriate size for visibility */
+    font-weight: bold;
+    color: #333333; /* A dark color for readability and professionalism */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px; /* Slight letter-spacing for a polished look */
+    text-transform: uppercase; /* Uppercase for impact, optional */
+    line-height: 1.2; /* Line height for readability */
+    max-width: 80%; /* Limit width and use margin for center alignment */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    text-align:left;
+    border-bottom: 2px solid #007bff; /* Underline effect, optional */
+}
