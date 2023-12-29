@@ -6,7 +6,7 @@ const ProjectListDisplay = () => {
     //const {data: projs, isPending, error} = useFetch('http://localhost:8000/projects')
     const {data: projs, isPending, error} = useLocalData("projects");
     return ( 
-        <div className = "ProjectListDisplay" id = "projects">
+        <div className = "ProjectListDisplay">
 
             {error && <div>{error}</div>}
             {isPending && <div>"Sorry this hasn't loaded yet"</div>}

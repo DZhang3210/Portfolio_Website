@@ -29,8 +29,8 @@ const ProjectList = ({ projects }) => {
                         ))}
                     </ul>
                     <div className = "overlay">
-                        <a className = "overlay-link" href = {project.github}> <FontAwesomeIcon icon = {faGithub}/> Github</a>
-                        <a className = "overlay-link" href = {project.redirect}> <FontAwesomeIcon icon={faLocationArrow} /> Redirect</a>
+                        { project.github !== null ? <a className = "overlay-link" href = {project.github}> <FontAwesomeIcon icon = {faGithub}/> Github</a> : <div></div>}
+                        {project.redirect !== null ? <a className = "overlay-link" href = {project.redirect}> <FontAwesomeIcon icon={faLocationArrow} /> Redirect</a> : <div></div>}
                     </div>
                 </div>
             ))}

@@ -64,7 +64,7 @@ a.linkedin, a.github, a.cv, a.email{
 }
 
 .table_of_contents img{
-    max-width:500px;
+    max-width:600px;
     height: 100%;
 }
 
@@ -85,13 +85,33 @@ a.linkedin, a.github, a.cv, a.email{
     height: auto;
     margin-bottom: 20px;
 }
-
 .table_of_contents a {
+    font-family:'Times New Roman', Times, serif;
     display: block;
-    padding: 10px 0;
+    position: relative;
+    padding-left: 15px;
+    margin-bottom:5px;
     text-align:left;
-    font-size: 18px; /* Font size for links */
-    margin-bottom: 5px; /* Add margin to separate the links vertically */
+    text-decoration: none;
+    color: black; /* Text color */
+    font-size: 35px;
+    transition: background-color 0.2s ease-in
+}
+.table_of_contents a::before {
+    content: '•'; /* Bullet point */
+    position: absolute;
+    font-size: 35px;
+    top: 5;
+    left: 0;
+    color: black; /* Bullet point color */
+}
+.table_of_contents a:hover {
+    display: list-item;
+    background-color:red;
+    color: white;
+    border-radius: 3px;
+}.table_of_contents a:hover::before {
+    color: white; /* Bullet point color on hover */
 }
 
 .name {
@@ -121,7 +141,6 @@ a.linkedin, a.github, a.cv, a.email{
 .homeTitle {
     font-family: 'Roboto', sans-serif;
     font-size: 80px; /* Appropriate size for visibility */
-    color: #333333; /* A dark color for readability and professionalism */
     margin-top: 20px;
     font-weight:bold;
     margin-bottom: 20px;

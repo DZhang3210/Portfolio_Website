@@ -34,7 +34,7 @@ html, body{
 
 /* Light Mode Styles */
 #light {
-    background-color: white;
+    background-color: rgb(242, 236, 236);
 }
 
 #light .App-header, #light .home_content, #light .jobList, #light .projectList {
@@ -68,7 +68,7 @@ html, body{
 
 /* Dark Mode Styles */
 #dark {
-    background-color: black;
+    background-color: rgb(14, 14, 18);
 }
 
 #dark .App-header, #dark .home_content, #dark .certPreview, #dark .jobList, #dark .projectList {
@@ -185,4 +185,47 @@ h1, h2, h3, h4{
 
 #dark .setMode {
     color: white;
+}
+
+#light .homeTitle{
+    color: #333333; /* A dark color for readability and professionalism */
+}
+
+#dark .homeTitle{
+    color: rgb(155, 155, 155);
+}
+
+#light .skillTitle{
+    color: #333333; /* A dark color for readability and professionalism */
+}
+
+#dark .skillTitle{
+    color: rgb(155, 155, 155);
+}
+
+#light .projectTitle{
+    color: #333333; /* A dark color for readability and professionalism */
+}
+
+#dark .projectTitle{
+    color: rgb(155, 155, 155);
+}
+
+#dark .proj-description p{
+    color: rgb(155, 155, 155);
+}
+#dark .proj-post{
+    background-color: #222222;
+}
+#light .proj-post{
+    background-color: white;
+}
+#light .certPreview{
+    background-color: white;
+}
+#light .fp-desc{
+    color: black;
+}
+#dark .fp-desc{
+    color:white;
 }

@@ -7,7 +7,7 @@ const CertificiateListDisplay = () => {
     //const {data: certs, isPending, error} = useFetch('http://localhost:8000/certificates')
     const {data: certs, isPending, error} = useLocalData("certificates");
     return ( 
-        <div className = "CertificateListDisplay" id = "certificates">
+        <div className = "CertificateListDisplay" >
 
             {error && <div>{error}</div>}
             {isPending && <div>"Sorry this hasn't loaded yet"</div>}

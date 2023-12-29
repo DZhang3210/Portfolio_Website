@@ -5,15 +5,10 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 const Home = () => {
     return ( 
         <div className = "home-wrapper">
-            <div className = "homeTitle">Home</div>
-            <div className = "contents" id = "home">
+            <div className = "homeTitle" id = "home">Home</div>
+            <div className = "contents">
                 <div className = "table_of_contents">
                     <img src = "ProfilePic.jpeg" alt = "GEX"></img>
-                    <a href = "#home">David Zhang</a>
-                    <a href = "#certificates">Certificates</a>
-                    <a href = "#projects">Projects</a>
-                    {/* <a href = "#coverLetter">Cover Letter</a> */}
-
                 </div>
                 <div className = "home_content">
                     <div className = "contact_info">

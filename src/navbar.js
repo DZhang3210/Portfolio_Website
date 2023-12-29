@@ -2,7 +2,7 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import ReactSwitch from 'react-switch'
 import { useContext } from 'react'; 
 import { ThemeContext } from "./App";
-
+import "./Stylesheets/navbar.css"
 const Navbar = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
     return (
@@ -11,12 +11,13 @@ const Navbar = () => {
                 <ul className="nav-links">
                     {/* <img src = "home_image.png" alt = "home_image.png"/> */}
                     <li className = "Signature"> <Link to = "/">David Zhang</Link></li>
-                    <li className = "button"><Link>Project 1</Link></li>
-                    <li className = "button"><Link>Project 2</Link></li>
-                    <li className = "button"><Link>Project 3</Link></li>
-                    <li className = "button"><Link>Project 4</Link></li>
-                    <ReactSwitch onChange = {toggleTheme} checked = {theme === "light"}/>
-                    <div className = "setMode">{theme === "light" ? "Light Mode" : "Dark Mode"}</div>
+                    <li className = "Signature"> <a href = "#home">Home</a></li>
+                    <li className = "Signature"> <a href = "#skills">Skills</a></li>
+                    <li className = "Signature"> <a href = "#projects">Projects</a></li>
+                    <div className = "light-switch">
+                        <ReactSwitch onChange = {toggleTheme} checked = {theme === "dark"}/>
+                        <div className = "setMode">{theme === "light" ? "Light Mode" : "Dark Mode"}</div>
+                    </div>
                 </ul>
             </header>
         </div>

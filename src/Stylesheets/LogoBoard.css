@@ -5,10 +5,9 @@
     padding: 20px; /* Add some padding for aesthetics */
 }
 
-.LogoBoard .title {
+.LogoBoard .skillTitle {
     font-family: 'Roboto', sans-serif;
     font-size: 80px; /* Appropriate size for visibility */
-    color: #333333; /* A dark color for readability and professionalism */
     margin-top: 20px;
     margin-bottom: 20px;
     letter-spacing: 1px; /* Slight letter-spacing for a polished look */

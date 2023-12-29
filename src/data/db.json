@@ -66,7 +66,9 @@
                 "Chatting Platform with encryption, login, chat, saved Channels, emote support",
                 "Utilized React, and Stream",
                 "Engineered seamless communication between multiple users and admin support"
-            ]
+            ],
+            "github": "https://github.com/DZhang3210/MedicalPager",
+            "redirect": "https://github.com/DZhang3210/MedicalPager"
         },
         {
             "id" : 2,
@@ -76,7 +78,9 @@
             "content": [
                "Implemented 6 Dof Scanner with Kalman Filters to detect payload dropoff",
                "Preparation to work on NASA competition operations with official team in future"
-            ]
+            ],
+            "github": null,
+            "redirect": null
 
         },
         {
@@ -89,7 +93,9 @@
                 "Designed a voice-activated hands-free smart mirror",
                 "Raspberry Pi, Hardware Integration, UI design, software features",
                 "Able to show news/weather/schedule, read off news and play Spotify"
-            ]
+            ],
+            "github": "https://github.com/DZhang3210/SmartMirror",
+            "redirect": "https://github.com/DZhang3210/SmartMirror"
         },
         {
             "id" : 4,
@@ -100,7 +106,20 @@
                 "Top-down, bullet hell, shooter",
                 "Unique AI Enemies features: lasers, invisibility, fast-chasing, passive behavior",
                 "Unity, C#, Particle Effects, Sprites/Maps, Animation, Logic"
-            ]
+            ],
+            "github": null,
+            "redirect": null
+        }
+    ],
+    "FeatureProjects" : [
+        {
+            "id": 1,
+            "title": "Pathfinding Visualizer",
+            "description": "Pathfinding Interface to visualize different algorithms like A* and Dijkstra",
+            "img": "pv.png",
+            "github": "https://github.com/DZhang3210/Pathfinder",
+            "link": "nothing"
+
         }
     ]
 }

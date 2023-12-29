@@ -2,7 +2,6 @@
     font-family: 'Roboto', sans-serif;
     font-size: 80px; /* Appropriate size for visibility */
     font-weight: bold;
-    color: #333333; /* A dark color for readability and professionalism */
     margin-top: 20px;
     margin-bottom: 20px;
     letter-spacing: 1px; /* Slight letter-spacing for a polished look */
@@ -14,4 +13,96 @@
     padding-bottom: 10px;
     text-align:left;
     border-bottom: 2px solid #007bff; /* Underline effect, optional */
+}
+/* FeaturedProjects.css */
+
+.featuredProject-wrapper {
+    max-width: 1200px;
+    margin: 0 60px;
+    padding: 20px;
+}
+
+.fprojectTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px; /* Appropriate size for visibility */
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px; /* Slight letter-spacing for a polished look */
+    text-transform: uppercase; /* Uppercase for impact, optional */
+    line-height: 1.2; /* Line height for readability */
+    max-width: 80%; /* Limit width and use margin for center alignment */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    text-align:left;
+    border-bottom: 2px solid #007bff; /* Underline effect, optional */
+    
+}
+
+.fprojs-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.fproj-post {
+    width: 100%;
+    max-width: 350px; /* Adjusted width */
+    border: 1px solid #e1e1e1; /* Light border for a subtle box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative; /* Needed for absolute positioning of the overlay */
+    overflow: hidden; /* Ensures the overlay fits within the rounded corners */
+}
+
+.fproj-post:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+
+#light.fproj-description {
+    padding: 15px;
+}
+#dark.fproj-description {
+    padding: 15px;
+}
+
+.fp-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #007bff; /* Bright color for the title */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fp-desc {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #7c7c7c; /* Slightly lighter than pure black for ease of reading */
+}
+
+.git {
+    color: #333;
+    transition: color 0.3s;
+}
+
+.git:hover {
+    color: #007bff; /* Color change on hover */
+}
+.fproj-image{
+    width:100%;
+    height: auto;
+}
+
+.fproj-post .fproj-image:hover {
+    transition: opacity 0.3s ease;
+    opacity: 0.6; /* Darkens the image when specifically hovered over */
 }

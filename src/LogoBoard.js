@@ -1,8 +1,8 @@
 import './Stylesheets/LogoBoard.css'
 const LogoBoard = () => {
     return ( 
-        <div className = "LogoBoard">
-            <h1 className = "title">Skills</h1>
+        <div className = "LogoBoard" id ="skills">
+            <h1 className = "skillTitle">Skills</h1>
             <div className = "logos">
                 <img src = "Logos/mongoDB.svg"></img>
                 <img src = "Logos/react.png"></img>
