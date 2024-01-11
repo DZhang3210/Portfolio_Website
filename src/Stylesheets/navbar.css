@@ -1,26 +1,33 @@
 /* navbar.css */
-
+body{
+    padding:30px
+}
 /* Base styling */
 .navbar {
-    font-family: 'Optima', sans-serif; /* Professional font */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    position: fixed; /* Fixed positioning relative to the viewport */
+    top: 0; /* Align to the top of the viewport */
+    left: 0; /* Align to the left of the viewport */
+    width: 100%; /* Span the full width of the viewport */
+    background-color: #ffffff; /* Give the navbar a background color */
+    z-index: 1000; /* Ensures the navbar is above other content */
+    padding: 20px 0px;
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+    background-color: transparent; /* Initial background color */
+}
+
+.navbar.scrolled {
+    background-color: rgb(0,0,0,0.8); /* New background color after scrolling */
+}
+.navbar.scrolled .nav-links a{
+    color:white
 }
 
 .homeSite {
-    text-align: center;
-    margin: 0px 0;
-    padding: 20px 0;
+    margin: 20px 0;
 }
 
 
 /* Navbar styles */
-.navbar {
-    display: flex;
-    align-items: stretch;
-    justify-content: space-between;
-}
 
 .nav-links {
     list-style: none;
@@ -28,9 +35,13 @@
     margin: 0;
     display: flex;
     gap: 0; /* Remove gap between links */
+    width: 100vw;
+    height:auto;
 }
 
 .nav-links a{
+    color:black;
+    font-size: 25px;
     text-decoration: none;
     font-weight: 500;
     padding: 20px 25px;

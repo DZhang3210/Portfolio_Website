@@ -7,6 +7,7 @@ const LogoBoard = () => {
                 <img src = "Logos/mongoDB.svg"></img>
                 <img src = "Logos/react.png"></img>
                 <img src = "Logos/node.png"></img>
+                <img src = "Logos/redux.png"></img>
                 <img src = "Logos/python.png"></img>
                 <img src = "Logos/java.png"></img>
                 <img src = "Logos/PHP.png"></img>

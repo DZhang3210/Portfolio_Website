@@ -1,13 +1,12 @@
 import './Stylesheets/FeaturedProjects.css'
-import './Stylesheets/colors.css'
 import useLocalData from './useLocalData'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 const FeaturedProjects = () => {
     const {data: projs, isPending, error} = useLocalData("FeatureProjects");
     return (  
-        <div className = "ffeaturedProject-wrapper">
-            <div className = "projectTitle" id = "projects">Projects</div>
+        <div className = "ffeaturedProject-wrapper" id = "projects">
+            <div className = "projectTitle">Projects</div>
             <div className = "fprojs-wrapper">
             {projs && projs.map((proj) => (
                     <div class="fproj-post">

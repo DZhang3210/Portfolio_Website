@@ -2,18 +2,19 @@
     "certificates": [
         {
             "id": 2,
-            "title": "AWS Certified Cloud Practitioner",
+            "title": "Certified Cloud Practitioner",
             "startDate": "January 2023",
             "endDate": "January 2026",
-            "img": "Cloud-Practitioner-Icon.png"
+            "img": "Cloud-Practitioner-Icon.png",
+            "description": "Earning AWS Certified Database – Specialty validates expertise in recommending, designing, and maintaining optimal AWS database solutions."
         },
         {
             "id": 1,
-            "title": "AWS Certified Database-Specialty",
+            "title": "Certified Database-Specialty",
             "startDate": "July 2023",
             "endDate": "July 2026", 
-            "img": "Database-Specialty-Icon.png"
-
+            "img": "Database-Specialty-Icon.png",
+            "description": "The AWS Certified Cloud Practitioner validates foundational, high-level understanding of AWS Cloud, services, and terminology."
         }
     ],
     "coverletter": [
@@ -118,8 +119,7 @@
             "description": "Pathfinding Interface to visualize different algorithms like A* and Dijkstra",
             "img": "pv.png",
             "github": "https://github.com/DZhang3210/Pathfinder",
-            "link": "nothing"
-
+            "link": "http://pathvis.s3-website-us-east-1.amazonaws.com"
         }
     ]
 }

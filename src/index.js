@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './home.css'
+import './Stylesheets/jobList.css'
+import './Stylesheets/projectList.css'
+import './Stylesheets/certificateList.css'
+
 import App from './App';
-import { TutorialProvider } from './context/TutorialContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  //<React.StrictMode>
-  <TutorialProvider>
+  <React.StrictMode>
     <App />
-  </TutorialProvider>
-  //</React.StrictMode>
+  </React.StrictMode>
 );
 

@@ -54,7 +54,6 @@
     border: 1px solid #e1e1e1; /* Light border for a subtle box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
     border-radius: 8px; /* Rounded corners */
-    overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative; /* Needed for absolute positioning of the overlay */
     overflow: hidden; /* Ensures the overlay fits within the rounded corners */
@@ -67,9 +66,6 @@
 
 
 #light.fproj-description {
-    padding: 15px;
-}
-#dark.fproj-description {
     padding: 15px;
 }
 

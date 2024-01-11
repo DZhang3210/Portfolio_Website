@@ -5,16 +5,12 @@ import {faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLocationArrow } from '@fortawesome/free-solid-svg-icons';
 
 const ProjectList = ({ projects }) => {
-    const [ref, inView] = useInView({
-        triggerOnce: true,
-        threshold: 0.5
-    });
 
     return (
         <div className="projectList">
             <h1 className="sectionTitle">More Projects</h1>
             {projects.map((project) => (
-                <div ref={ref} className={`projectPreview ${inView ? 'fadeIn' : ''}`} key={project.id}>
+                <div className='projectPreview' key={project.id}>
                     <div className="projectHeader">
                         <div className="projectTitle">
                             <h2>{project.title}</h2>

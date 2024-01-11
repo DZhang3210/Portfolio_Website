@@ -30,7 +30,7 @@
 }
 
 .LogoBoard img {
-    height: 125px; /* Set a fixed height for all images */
+    height: 100px; /* Set a fixed height for all images */
     width: auto; /* Maintain aspect ratio */
     margin: 10px; /* Space between logos */
 }

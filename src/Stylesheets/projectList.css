@@ -1,5 +1,5 @@
 .projectList {
-    max-width: 850px;
+    max-width: 70vw;
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
@@ -18,16 +18,11 @@
 .projectPreview {
     margin-bottom: 20px;
     padding: 10px;
-    opacity: 0;
     transition: opacity 1s ease-in-out;
     display: flex; /* Ensures internal content is flex */
     flex-direction: column; /* Stacks elements vertically */
     border: 1px solid black;
     border-radius: 10px;
-}
-
-.projectPreview.fadeIn {
-    opacity: 1;
 }
 
 

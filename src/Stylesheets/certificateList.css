@@ -1,54 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .certificateList {
-    max-width: 1000px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2x1 grid */
-    gap: 20px; /* Spacing between grid items */
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
-    margin-bottom:30px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif; /* Using Roboto font */
+    border-radius: 8px;
 }
 
 .certPreview {
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Center items vertically */
-    text-align: center; /* Center text */
-}
-
-.certPreview h2 {
-    font-size: 1.4em;
-    margin-bottom: 10px;
-    font-family: 'Optima', sans-serif;
-}
-
-.certPreview h3 {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    font-family: 'Arial', sans-serif;
+    align-items: center; /* Align image and description vertically */
+    gap: 20px; /* Space between image and description */
+    border: 1px solid #ddd; /* Subtle border */
+    padding: 10px;
+    border-radius: 10px; /* Rounded corners */
+    max-width: 600px; /* Adjust based on your layout */
 }
 
 .certPreview img {
-    width: 100%; /* Full width of the container */
-    max-width: 150px; /* Maximum width */
+    width: 120px; /* Fixed width for images */
     height: auto; /* Maintain aspect ratio */
-    object-fit: contain; /* Ensure the entire image is visible */
-    margin-bottom: 10px;
+    border-radius: 6px; /* Slightly rounded corners for the image */
 }
 
-.certPreview:hover{
-    transform: scale(1.01); /* Slightly enlarge on hover */
-    transition: transform 0.1s ease-in-out; /* Smooth transition */
+.cdesc {
+    text-align: left;
+    flex-grow: 1; /* Allow description to take up remaining space */
 }
 
-/* Responsive Design: Single column on smaller screens */
-@media screen and (max-width: 600px) {
-    .certificateList {
-        grid-template-columns: 1fr;
-    }
+.cdesc h2 {
+    color: #333;
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
+.cdesc > div {
+    color: #666;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.cdesc p {
+    color: #444;
+    font-size: 0.6em;
+    line-height: 1.4;
+}
