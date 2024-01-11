@@ -33,17 +33,33 @@ const Home = () => {
                         </div>
                     </div> */}
                     <div className = "showcase-section">
-                        <div className = "projects-title">Projects</div>
-                        
-                        <div className = "showcase_proj">
-                            <img src = "/pathfinder_demo.gif" alt = "gif"/> 
-                            <div className = "showcase_desc">
-                                <div>Pathfinding Visualizer</div>
-                                <p>Website to demonstrate different pathfinding algorithms</p>
-                                <div className = "project-buttons">
-                                <a className = "showcase" href ='http://pathvis.s3-website-us-east-1.amazonaws.com'><FontAwesomeIcon icon={faChevronRight} />Link</a>
-                                <a class = "git" href = 'https://github.com/DZhang3210/Pathfinder'><FontAwesomeIcon icon={faGithub}/>Github</a>
+                        <div className = "projects-title">Recent Projects</div>
+                        <div className = "showcase-area">
+                            <div className = "showcase_proj">
+                                <div className="img-container">
+                                    <img src="/pathfinder_demo.gif" alt="Pathfinder Visualizer Gif" />
+                                </div>
+                                <div className = "showcase_desc">
+                                    <div>Pathfinding Visualizer</div>
+                                    <p>App to Demonstrate Live Pathfinding Algorithms</p>
+                                    <div className = "project-buttons">
+                                    <a className = "showcase" href ='http://pathvis.s3-website-us-east-1.amazonaws.com'><FontAwesomeIcon icon={faChevronRight} />Link</a>
+                                    <a class = "git" href = 'https://github.com/DZhang3210/Pathfinder'><FontAwesomeIcon icon={faGithub}/>Github</a>
+                                </div>
+                                </div>
                             </div>
+                            <div className = "showcase_proj">
+                                <div className="bug-container">
+                                    <img className = "bug-image" src="/BugBuddy.png" alt="Pathfinder Visualizer Gif" />
+                                </div>
+                                <div className = "showcase_desc">
+                                    <div>Bug Buddy</div>
+                                    <p>Live Bug Tracking and Documentation App</p>
+                                    <div className = "project-buttons">
+                                    <a className = "showcase" href ='https://bug-frontend-hnc8.onrender.com'><FontAwesomeIcon icon={faChevronRight} />Link</a>
+                                    <a class = "git" href = 'https://github.com/DZhang3210/Bug-Buddy'><FontAwesomeIcon icon={faGithub}/>Github</a>
+                                </div>
+                                </div>
                             </div>
                         </div>
                     </div>
