@@ -11,7 +11,7 @@ const Home = () => {
         <div className = "home-wrapper">
             <div className = "contents">
                 <div className = "table_of_contents">
-                    <img className = "profile_pic" src = "ProfilePic.jpeg" alt = "GEX"></img>
+                    <img className = "profile_pic" src = "Profile_Pic.jpg" alt = "GEX"></img>
                     <div className = "contact_info">
                         <div className = "contact">
                                 <a className = "email" href = "mailto:davidzhang3210@gmail.com"> <FontAwesomeIcon icon={faEnvelope}/> davidzhang3210@gmail.com</a>
@@ -43,8 +43,8 @@ const Home = () => {
                                     <div>Pathfinding Visualizer</div>
                                     <p>App to Demonstrate Live Pathfinding Algorithms</p>
                                     <div className = "project-buttons">
-                                    <a className = "showcase" href ='http://pathvis.s3-website-us-east-1.amazonaws.com'><FontAwesomeIcon icon={faChevronRight} />Link</a>
-                                    <a class = "git" href = 'https://github.com/DZhang3210/Pathfinder'><FontAwesomeIcon icon={faGithub}/>Github</a>
+                                    <a className = "showcase" href ='http://pathvis.s3-website-us-east-1.amazonaws.com' target="_blank"><FontAwesomeIcon icon={faChevronRight} />Link</a>
+                                    <a class = "git" href = 'https://github.com/DZhang3210/Pathfinder' target="_blank"><FontAwesomeIcon icon={faGithub}/>Github</a>
                                 </div>
                                 </div>
                             </div>
@@ -56,8 +56,8 @@ const Home = () => {
                                     <div>Bug Buddy</div>
                                     <p>Live Bug Tracking and Documentation App</p>
                                     <div className = "project-buttons">
-                                    <a className = "showcase" href ='https://bug-frontend-hnc8.onrender.com'><FontAwesomeIcon icon={faChevronRight} />Link</a>
-                                    <a class = "git" href = 'https://github.com/DZhang3210/Bug-Buddy'><FontAwesomeIcon icon={faGithub}/>Github</a>
+                                    <a className = "showcase" href ='https://bug-frontend-hnc8.onrender.com' target="_blank"><FontAwesomeIcon icon={faChevronRight} />Link</a>
+                                    <a class = "git" href = 'https://github.com/DZhang3210/Bug-Buddy' target="_blank"><FontAwesomeIcon icon={faGithub}/>Github</a>
                                 </div>
                                 </div>
                             </div>
